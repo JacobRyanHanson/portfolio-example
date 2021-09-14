@@ -1,0 +1,268 @@
+:root {
+    --primary-color: #445877;
+    --secondary-color: #92cccd;
+    --tertiary-color: #32343d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--tertiary-color);
+}
+
+header nav {
+    margin-left: auto; /* Forces nav links to the right. */
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+header nav ul li {
+    padding: 0 10px;
+    align-self: center;
+}
+
+header h1 {
+    background: var(--secondary-color);
+    padding: 10px;
+    margin: 8px 15px 8px 0;
+}
+
+header h1 a {
+    font-size: 50px;
+    color: var(--tertiary-color);
+}
+
+header nav ul li a {
+    color: var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+    font-size: 20px;
+    padding: 0 5px;
+    height: 100%;
+}
+
+header img {
+    height: 78px;
+    align-self: center;
+    border-radius: 50%; /* Makes image a circle. */
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 30px 0;
+}
+
+.hero {
+    justify-content: flex-end;
+    background: url(../images/hero.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 60px 60px 60px;
+    margin-top: 0;
+}
+
+.hero-subtitle {
+    color: var(--secondary-color);
+    background: var(--tertiary-color);
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.hero-subtitle h2 {
+    font-size: 30px;
+}
+
+.title {
+    width: 20%;
+    border-right: 3px solid var(--primary-color);
+}
+
+.title h2 {
+    font-size: 40px;
+    text-align: right;
+    padding: 10px 5px 10px 0;
+}
+
+.content {
+    width: 75%;
+    padding-left: 20px;
+    align-self: center;
+}
+
+.container-text {
+    position: relative;
+    bottom: 20px;
+    padding: 10px 10px 10px 30px;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-size: 20px;
+}
+
+.container-text p {
+    font-size: 15px;
+}
+
+#work .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.run-buddy {
+    display: flex;
+    width: 100%;
+    padding-top: 300px;
+    margin-bottom: 20px;
+    border: 3px solid var(--secondary-color);
+    background: url(../images/run-buddy.png);
+    background-size: cover;
+}
+
+.horesion {
+    margin: 0 5px 5px 0;
+    background: url(../images/horiseon.png);
+}
+
+.calculator {
+    margin: 0 0 5px 5px;
+    background: url(../images/calculator.jpg);
+
+}
+
+.clock {
+    margin: 5px 5px 0 0;
+    background: url(../images/clock.jpg);
+}
+
+.calender {
+    margin: 5px 0 0 5px;
+    background: url(../images/calendar.jpg);
+}
+
+.horesion,
+.calculator,
+.clock,
+.calender {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1 49%; /* Needs less than 50% flex to accomidate margins. */
+    padding-top: 150px;
+    border: 3px solid var(--secondary-color);
+    background-size: cover;
+    background-position: center;
+}
+
+.run-buddy:hover,
+.horesion:hover,
+.calculator:hover,
+.clock:hover,
+.calender:hover {
+    opacity: 90%;
+}
+
+#contact-me {
+    padding-bottom: 10px;
+}
+
+#contact-me .content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact-me .content ul li {
+    color: var(--primary-color);
+    font-size: 20px;
+    border-bottom: 3px solid var(--primary-color);
+    margin: 0 20px 10px 20px;
+}
+
+#contact-me .content ul li a {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 780px) {
+    header {
+        justify-content: center;
+    }
+
+    header nav {
+        margin: 10px 0;
+        width: 60%;
+    }
+
+    header nav ul {
+        justify-content: space-between;
+    }
+
+    /* Titles and content reformatted to stack vertically @ breakpoint. */
+    #about-me,
+    #work,
+    #contact-me {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .title {
+        width: auto;
+        border-right: none;
+        border-bottom: 3px solid var(--primary-color);
+        margin-bottom: 5px;
+    }
+
+    .title h2 {
+        text-align: center;
+        padding: 0 0 5px 0;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    #contact-me .content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .hero {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .hero-subtitle {
+        margin: 20px;
+        position: static;
+        height: 100%;
+    }
+
+    .horesion,
+    .calculator,
+    .clock,
+    .calender {
+        margin: 0 0 10px 0;
+        flex: 100%;
+    }
+}
