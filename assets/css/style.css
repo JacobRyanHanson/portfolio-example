@@ -143,9 +143,9 @@ section {
     background: url(../images/horiseon.png);
 }
 
-.calculator {
+.finance-assistant {
     margin: 0 0 5px 5px;
-    background: url(../images/calculator.jpg);
+    background: url(../images/finance-assistant.png);
 
 }
 
@@ -160,7 +160,7 @@ section {
 }
 
 .horesion,
-.calculator,
+.finance-assistant,
 .clock,
 .calender {
     display: flex;
@@ -175,7 +175,7 @@ section {
 
 .run-buddy:hover,
 .horesion:hover,
-.calculator:hover,
+.finance-assistant:hover,
 .clock:hover,
 .calender:hover {
     opacity: 90%;
@@ -259,7 +259,7 @@ section {
     }
 
     .horesion,
-    .calculator,
+    .finance-assistant,
     .clock,
     .calender {
         margin: 0 0 10px 0;
