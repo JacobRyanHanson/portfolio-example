@@ -149,9 +149,9 @@ section {
 
 }
 
-.clock {
+.game-spot-blog {
     margin: 5px 5px 0 0;
-    background: url(../images/clock.jpg);
+    background: url(../images/game-spot-blog-homepage.jpg);
 }
 
 .calender {
@@ -161,7 +161,7 @@ section {
 
 .horesion,
 .finance-assistant,
-.clock,
+.game-spot-blog,
 .calender {
     display: flex;
     flex-wrap: wrap;
@@ -176,7 +176,7 @@ section {
 .run-buddy:hover,
 .horesion:hover,
 .finance-assistant:hover,
-.clock:hover,
+.game-spot-blog:hover,
 .calender:hover {
     opacity: 90%;
 }
@@ -260,7 +260,7 @@ section {
 
     .horesion,
     .finance-assistant,
-    .clock,
+    .game-spot-blog,
     .calender {
         margin: 0 0 10px 0;
         flex: 100%;
