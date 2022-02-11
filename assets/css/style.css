@@ -154,15 +154,15 @@ section {
     background: url(../images/game-spot-blog-homepage.jpg);
 }
 
-.calender {
+.the-raffler {
     margin: 5px 0 0 5px;
-    background: url(../images/calendar.jpg);
+    background: url(../images/the-raffler.png);
 }
 
 .horesion,
 .finance-assistant,
 .game-spot-blog,
-.calender {
+.the-raffler {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -177,7 +177,7 @@ section {
 .horesion:hover,
 .finance-assistant:hover,
 .game-spot-blog:hover,
-.calender:hover {
+.the-raffler:hover {
     opacity: 90%;
 }
 
@@ -261,7 +261,7 @@ section {
     .horesion,
     .finance-assistant,
     .game-spot-blog,
-    .calender {
+    .the-raffler {
         margin: 0 0 10px 0;
         flex: 100%;
     }
