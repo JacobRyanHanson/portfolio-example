@@ -154,15 +154,15 @@ section {
     background: url(../images/game-spot-blog-homepage.jpg);
 }
 
-.the-raffler {
+.deep-thoughts {
     margin: 5px 0 0 5px;
-    background: url(../images/the-raffler.png);
+    background: url(../images/deep-thoughts.png);
 }
 
 .horesion,
 .finance-assistant,
 .game-spot-blog,
-.the-raffler {
+.deep-thoughts {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -177,7 +177,7 @@ section {
 .horesion:hover,
 .finance-assistant:hover,
 .game-spot-blog:hover,
-.the-raffler:hover {
+.deep-thoughts:hover {
     opacity: 90%;
 }
 
@@ -261,7 +261,7 @@ section {
     .horesion,
     .finance-assistant,
     .game-spot-blog,
-    .the-raffler {
+    .deep-thoughts {
         margin: 0 0 10px 0;
         flex: 100%;
     }
