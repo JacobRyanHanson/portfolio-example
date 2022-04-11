@@ -4,7 +4,7 @@
 This is a website that functions as a snapshot of my portfolio by shocasing my projects (including placeholders).
 
 ## Screenshot
-![portfolio-sample](https://user-images.githubusercontent.com/89164466/132104651-bd787a26-d20a-4c0d-a36a-53c0cd18778f.png)
+![portfolio-example](https://user-images.githubusercontent.com/89164466/162848406-aea4d693-b024-42b0-b3d3-2a9c53c85146.png)
 
 ## Website
 https://jacobryanhanson.github.io/portfolio-example/
