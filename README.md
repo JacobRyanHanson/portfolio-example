@@ -1,4 +1,4 @@
-# Portfolio Sample
+# Portfolio Example
 
 ## Description
 This is a website that functions as a snapshot of my portfolio by shocasing my projects (including placeholders).
